@@ -29,7 +29,7 @@ const getCards = (category) => Cards[category];
       Built with ❤️ by
       <a href="https://github.com/dan-sarracayo">Dan</a>
     </div>
-    <div>v1.2</div>
+    <div>v1.3</div>
   </footer>
 </template>
 

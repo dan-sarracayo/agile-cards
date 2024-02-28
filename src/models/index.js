@@ -104,7 +104,7 @@ export const Cards = {
   ],
   /* Yes/No Cards. */
   "Yes/No": [
-    { name: "Yes", icon: "👍", fill: "#04c904", type: "filled" },
+    { name: "Yes", icon: "👍", fill: "rgb(0 166 0)", type: "filled" },
     { name: "No", icon: "👎", fill: "#943ed1", type: "filled" },
   ],
 };
