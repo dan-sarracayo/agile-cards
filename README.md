@@ -1,10 +1,16 @@
-# agile-cards
+# Agile Cards
 
-This template should help get you started developing with Vue 3 in Vite.
+![banner image](https://agile.sourmayo.com/banner.png)
 
-## Recommended IDE Setup
+I built this little web app to replace my agile planning cards in the case of forgetting them.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+It has a selection of cards that are commonly used during planning sessions in scrum or agile.
+
+Check it out at [https://agile.sourmayo.com/](https://agile.sourmayo.com/)!
+
+## Project
+
+This was built in Vue3 using Vite!
 
 ## Customize configuration
 
