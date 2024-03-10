@@ -6,7 +6,6 @@ import { Cards } from "@/models/";
 
 const router = useRouter();
 const route = useRoute();
-console.log(router);
 const { cardid } = route.params;
 
 // Flatten cards into array.
@@ -21,9 +20,9 @@ const viewingCard = cardsByName[cardid];
 
 <template>
   <main>
-    <router-link to="/">
+    <a @click="() => router.go(-1)">
       <Card :config="viewingCard" />
-    </router-link>
+    </a>
   </main>
 </template>
 

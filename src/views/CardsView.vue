@@ -1,4 +1,5 @@
 <script setup>
+import { version } from "../../package.json";
 import Card from "@/components/Card.vue";
 import { Cards } from "../models/index";
 const categories = Object.keys(Cards);
@@ -29,7 +30,7 @@ const getCards = (category) => Cards[category];
       Built with ❤️ by
       <a href="https://github.com/dan-sarracayo">Dan</a>
     </div>
-    <div>v1.3</div>
+    <div>v{{ version }}</div>
   </footer>
 </template>
 
